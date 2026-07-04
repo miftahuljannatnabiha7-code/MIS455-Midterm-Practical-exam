@@ -29,6 +29,20 @@ nav a:hover {
     color: black;
 }
 
+main {
+    padding: 25px;
+}
+
+
+.home-flex {
+    display: flex;
+    gap: 30px;
+}
+
+.home-flex div {
+    width: 50%;
+}
+
 
 img {
     width: 250px;
