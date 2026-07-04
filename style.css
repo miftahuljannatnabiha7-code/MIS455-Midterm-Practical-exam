@@ -79,3 +79,11 @@ img {
     cursor: pointer;
     
 }
+
+footer {
+    background-color: #5b321d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
