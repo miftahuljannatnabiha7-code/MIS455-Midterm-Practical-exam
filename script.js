@@ -4,13 +4,18 @@ function showContactMessage() {
 }
 
 
-function CalculateDiscount() {
+function calculateDiscount() {
     var amount = parseInt(document.getElementById("amount").value);
     var discount ;
 
     if (amount >= 1000) {
         discount = amount * 0.10;
     }
+    
+    else {
+        discount = amount *  0.05 ;
+    }
+
 
     var finalPrice = amount - discount;
     document.getElementById("discountResults").innerHTML = 
